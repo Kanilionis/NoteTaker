@@ -11,7 +11,7 @@ app.use(express.json())
 // server looks here first
 app.use(express.static("public"))
 
-app.use(apiroutes)
+app.use("/", apiroutes)
 app.use(htmlroutes)
 
 app.listen(PORT, () => console.log(`listening on port: ${PORT}`))
