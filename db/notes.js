@@ -39,7 +39,7 @@ class Notes {
     // new data will overwrite json with new notes
   }
   deleteNotes(id){
-    return this.getNotes().then(data => data.filter(note => note.id !== id)).then(data => this.writeNotes(data)) // grabbing everything else (other than the specified id), and overwriting old notes with new notes minus the specified id
+    return this.getNotes().then(data => data.filter(note => note.id != id)).then(data => this.writeNotes(data)) // grabbing everything else (other than the specified id), and overwriting old notes with new notes minus the specified id
   }
 }
 // generated as something new each time you start your server
