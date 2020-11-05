@@ -21,7 +21,7 @@
   ## Installation
   #### npm, express
   ## Usage
-  #### See the deployed app on heroku: https://git.heroku.com/sheltered-caverns-28727.git
+  #### See the deployed app on heroku: https://sheltered-caverns-28727.herokuapp.com/
   #### watch this video for usage:
   https://drive.google.com/file/d/1oJRH5DUwvkJNjX5hYVTQvoEqJceWnF-2/view
   ## License
